@@ -60,6 +60,10 @@ body {
 }
 /* Devices under 992px (lg) */
 @media (max-width: 992px) {
+  /*.caption{
+    top: 30%;*/
+    
+  }
   
 }
 /* Devices under 768px (md) */
@@ -70,3 +74,10 @@ body {
 @media (max-width: 576px) {
   
 }
+/*.caption{
+  property: transform;
+  class: translate-middle;
+  translate(-50%, -50%);
+  x: translateX(-50%);
+  y: translateY(-50%);
+}*/
